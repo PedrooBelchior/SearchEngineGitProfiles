@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <title>Buscador de Profiles Github</title>
+</head>
+
+<body>
+    <main class="mainContainer">
+        <div>
+            <h1>Buscador de Profiles no Github</h1>
+            <p>Localize reposotórios, seguidores insira o nome de Login!</p>
+            <div>
+
+                <input class="form-control" id="inputBusca" type="text" placeholder="" aria-label="Search">
+                <button class="btn btn-control" id="btnBusca" type="submit">BUSCAR</button>
+
+            </div>
+
+            <div id="resultBusca">
+                <div id="errorMsg"></div>
+                <div id="avatar"></div>
+                <div id="cardProfile">
+                    <ul>
+                        <b>
+                            <li id="nome"></li>
+                            <li id="login"></li>
+                            <li id="repositorios"></li>
+                            <li id="seguidores"></li>
+                            <li id="localizacao"></li>
+                            <li id="url"></li>
+                        </b>
+                    </ul>
+                </div>
+                <button class="btn btn-control" id="btnLimpar" type="submit">Limpar</button>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>Copyright © 2021 | Pedro Belchior</p>
+</footer>
+<script src="js/script.js" async></script>
+<script scr="https://ajax.google.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</html>
