@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+  body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+    
+  .mainContainer{
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  
+  }
+  p{
+    color: rgb(73, 73, 73)
+  }
+
+  .btn,
+   img,
+  .form-control{
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 20px;
+  }
+  .form-control {
+  width: 40%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.error-control{
+  
+  width: 40%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 0.1rem #dc3545;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -1.5%);
+  
+  
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #583bfc;
+}
+
+.card-control {
+  width: 60%;
+  color: #495057;
+  
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 0.1rem #583bfc;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -1.5%);
+  
+}
+
+.btn-control{
+  width: 20%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.btn-control:hover{
+  color: #fcfcfc;
+  background-color: #583bfc;
+}
+.btn-control:focus{
+  border-color: #fcfcfc;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #583bfc;
+}
+
+footer{
+  font-family: 'Courier New';
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+img{
+  width: 160px;
+  height: 160px;
+  border-radius: 15px 50px;
+}
+
+#errorMsg{
+  color:#dc3545;
+}
+#avatar_url, #errorMsg{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+li{
+  margin-bottom: 10px;
+}
+
+#btnLimpar{
+  display:none;
+  position: absolute;
+  top: 102%;
+  left:40%;  
+}
+#resultBusca{
+  text-align: center;
+}
+
+#avatar_url,#cardProfile,#errorMsg,.error-control{
+  display:none;
+}
