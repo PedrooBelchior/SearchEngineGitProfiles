@@ -145,3 +145,8 @@ li{
 #cardProfile,#errorMsg,.error-control{
   display:none;
 }
+.mark-github{
+  border-radius: 40%!important;
+  height: 72px;
+  width: 72px;
+}
